@@ -86,7 +86,7 @@ const Toolbar = () => {
 
 			<AiOutlineClear
 				title="Clear"
-				className={`toolbar__btn ${toolState?.tool?.name === "line" && "active"}`}
+				className="toolbar__btn"
 				onClick={() =>
 					toolState.tool.ctx.clearRect(
 						0,
