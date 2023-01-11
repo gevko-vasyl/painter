@@ -1,0 +1,12 @@
+@import "./variables.scss";
+
+.canvas {
+	margin-top: $toolbar-height;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+canvas {
+	background-color: $white;
+}

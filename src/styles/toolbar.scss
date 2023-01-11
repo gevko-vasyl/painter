@@ -1,0 +1,47 @@
+@import "./variables.scss";
+
+.toolbar {
+	position: fixed;
+	padding: 0 15px 0 15px;
+	top: 0;
+	height: $toolbar-height;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	z-index: 999;
+
+	background-color: $background-color;
+	box-shadow: 0 4px 5px $second-background-color;
+
+	&__btn {
+		margin-right: 20px;
+		height: 25px;
+		width: 25px;
+		cursor: pointer;
+
+		&:hover {
+			background-color: $second-background-color;
+			border-radius: 5px;
+		}
+	}
+}
+
+.active {
+	border: 3px solid $second-background-color;
+	border-radius: 5px;
+	background-color: $second-background-color;
+}
+
+.setting-bar {
+	position: fixed;
+	top: $toolbar-height;
+	margin-top: 2px;
+	padding: 0 15px 0 15px;
+	height: $toolbar-height;
+	width: 100%;
+	display: flex;
+	align-items: center;
+
+	background-color: $background-color;
+	box-shadow: 0 4px 5px $second-background-color;
+}
