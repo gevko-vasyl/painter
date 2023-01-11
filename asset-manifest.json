@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/painter/static/css/main.856230a7.css",
+    "main.js": "/painter/static/js/main.a2b897ce.js",
+    "index.html": "/painter/index.html",
+    "main.856230a7.css.map": "/painter/static/css/main.856230a7.css.map",
+    "main.a2b897ce.js.map": "/painter/static/js/main.a2b897ce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.856230a7.css",
+    "static/js/main.a2b897ce.js"
+  ]
+}
